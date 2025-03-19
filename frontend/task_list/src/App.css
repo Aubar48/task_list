@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* Estilos generales de la lista */
+.tasks__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Estilos para cada tarea */
+.tasks__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  margin: 0.5em 0;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Estilo del botón de cada tarea */
+.tasks__item__toggle {
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  padding: 0.85em 2.25em 0.85em 1em;
+  background-color: rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+/* Estilo cuando la tarea está completada */
+.tasks__item__toggle--completed {
+  text-decoration: line-through;
+  background-color: rgba(0, 128, 0, 0.15);
+  border-color: rgba(0, 128, 0, 0.2);
+}
+
+/* Efecto hover sobre el botón de tarea */
+.tasks__item__toggle:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 0, 0, 0.15);
+}
+
+/* Estilos para el botón de eliminar tarea */
+button.tasks__item__remove {
+  background-color: transparent;
+  border: none;
+  color: #ff4d4d;
+  font-size: 1.2em;
+  cursor: pointer;
+  padding: 0;
+  margin-left: 1em;
+}
+
+/* Efecto hover sobre el botón de eliminar */
+button.tasks__item__remove:hover {
+  color: #cc0000;
+}
+
+/* Estilos para el campo de entrada de nueva tarea y el botón */
+input[type="text"] {
+  padding: 0.5em;
+  margin-right: 1em;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 200px;
+}
+
+button {
+  padding: 0.5em 1em;
+  background-color: #4CAF50;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Espaciado entre el campo de entrada y la lista de tareas */
+main {
+  margin-top: 20px;
+}
