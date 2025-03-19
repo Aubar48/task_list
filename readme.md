@@ -46,7 +46,16 @@ Esta aplicación permite a los usuarios:
    npm install
    npm run dev
 
-3. Si aún no tienes una API backend corriendo, asegúrate de tenerla disponible en http://localhost:3000/api/tasks. Si no tienes una API configurada, necesitarás crearla o conectarte a una API que gestione las tareas " USA ENV EXAMPLE".
+3. Instala las dependencias de cypress:
+   
+   ```bash
+   cd <testing> 
+   npm install
+   npx cypress open
+   npx cypress run
+
+
+4. Si aún no tienes una API backend corriendo, asegúrate de tenerla disponible en http://localhost:3000/api/tasks. Si no tienes una API configurada, necesitarás crearla o conectarte a una API que gestione las tareas " USA ENV EXAMPLE".
 
 La API debe tener las siguientes rutas:
 
@@ -62,7 +71,7 @@ La API también incluye Swagger para documentar y probar los endpoints de manera
 
 USO FRONTEND REACT VITE: 
 - http://localhost:5173/
-<figure><img src="./task.png" alt="logo" style="height: 500px;"></figure>
+<figure><img src="./task.png" alt="logo" style="height: 400px;"></figure>
 
 1. Agregar una tarea: Ingresa el título y el área de la tarea en los campos correspondientes y haz clic en el botón "Agregar Tarea".
 2. Marcar una tarea como completada: Haz clic en el botón "Marcar como completa" o "Marcar como incompleta" para cambiar el estado de la tarea.
