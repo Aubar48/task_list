@@ -1,4 +1,5 @@
-# Lista de Tareas - React App
+# Lista de Tareas - React App Challenge ingreso a Academia ForIT 2025
+
 
 ## Descripción
 
@@ -28,8 +29,8 @@ Esta aplicación permite a los usuarios:
 1. Clona el repositorio en tu máquina local e instala las dependencias backend:
 
    ```bash
-   git clone <URL del repositorio>
-   Instala las dependencias del frontend
+   git clone <https://github.com/Aubar48/task_list>
+   Instala las dependencias del backend
    cd <backend> 
    cd <task_list>
    npm install
@@ -55,19 +56,9 @@ DELETE /api/tasks/:id: Elimina una tarea por su ID.
 PUT /api/tasks/:id: Actualiza el estado de una tarea.
 
 USO FRONTEND: http://localhost:5173/
-<figure><img src="./task.png" alt="logo" style="height: 200px;"></figure>
+<figure><img src="./task.png" alt="logo" style="height: 400px;"></figure>
 
 1. Agregar una tarea: Ingresa el título y el área de la tarea en los campos correspondientes y haz clic en el botón "Agregar Tarea".
 2. Marcar una tarea como completada: Haz clic en el botón "Marcar como completa" o "Marcar como incompleta" para cambiar el estado de la tarea.
 3. Eliminar una tarea: Haz clic en el botón "Eliminar" para eliminar una tarea de la lista.
 Estructura del Proyecto
-
-El proyecto tiene la siguiente estructura:
-/src
-  /components
-    /TaskForm
-      TaskForm.jsx       # Componente para agregar tareas
-    /TaskList
-      TaskList.jsx       # Componente para listar las tareas
-  App.jsx                # Componente principal donde se gestionan las tareas
-  App.css                # Estilos globales de la aplicación
