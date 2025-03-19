@@ -13,8 +13,8 @@ Esta aplicación permite a los usuarios:
 
 ## Tecnologías utilizadas
 
-- **Frontend**: React
-- **Backend**: Node.js, Sequelize, dontEnv, cors
+- **Frontend**: React vite
+- **Backend**: Node.js, Sequelize, dontEnv, cors, Swagger
 - **Estado**: React hooks (`useState`, `useEffect`)
 - **Estilo**: CSS
 
@@ -55,7 +55,12 @@ POST /api/tasks: Crea una nueva tarea.
 DELETE /api/tasks/:id: Elimina una tarea por su ID.
 PUT /api/tasks/:id: Actualiza el estado de una tarea.
 
-USO FRONTEND: http://localhost:5173/
+Swagger
+La API también incluye Swagger para documentar y probar los endpoints de manera visual. Para acceder a la documentación interactiva de la API, abre tu navegador y dirígete a:
+
+http://localhost:3000/api-docs
+
+USO FRONTEND REACT VITE: http://localhost:5173/
 <figure><img src="./task.png" alt="logo" style="height: 400px;"></figure>
 
 1. Agregar una tarea: Ingresa el título y el área de la tarea en los campos correspondientes y haz clic en el botón "Agregar Tarea".
