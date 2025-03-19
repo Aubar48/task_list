@@ -50,18 +50,19 @@ Esta aplicación permite a los usuarios:
 
 La API debe tener las siguientes rutas:
 
-GET /api/tasks: Obtiene todas las tareas.
-POST /api/tasks: Crea una nueva tarea.
-DELETE /api/tasks/:id: Elimina una tarea por su ID.
-PUT /api/tasks/:id: Actualiza el estado de una tarea.
+- GET /api/tasks: Obtiene todas las tareas.
+- POST /api/tasks: Crea una nueva tarea.
+- DELETE /api/tasks/:id: Elimina una tarea por su ID.
+- PUT /api/tasks/:id: Actualiza el estado de una tarea.
 
 Swagger
 La API también incluye Swagger para documentar y probar los endpoints de manera visual. Para acceder a la documentación interactiva de la API, abre tu navegador y dirígete a:
 
-http://localhost:3000/api-docs
+- http://localhost:3000/api-docs
 
-USO FRONTEND REACT VITE: http://localhost:5173/
-<figure><img src="./task.png" alt="logo" style="height: 400px;"></figure>
+USO FRONTEND REACT VITE: 
+- http://localhost:5173/
+<figure><img src="./task.png" alt="logo" style="height: 500px;"></figure>
 
 1. Agregar una tarea: Ingresa el título y el área de la tarea en los campos correspondientes y haz clic en el botón "Agregar Tarea".
 2. Marcar una tarea como completada: Haz clic en el botón "Marcar como completa" o "Marcar como incompleta" para cambiar el estado de la tarea.
